@@ -7,6 +7,6 @@
 class Primes
 {
 public:
-  virtual bool is_prime(unsigned int NUM);
+  static bool is_prime(unsigned int NUM);
   
 };

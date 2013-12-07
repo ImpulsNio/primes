@@ -1,0 +1,2 @@
+g++ primes.cpp main.cpp -o primes
+echo "=== Build script END! ==="

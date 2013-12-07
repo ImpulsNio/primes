@@ -9,11 +9,11 @@ int main(int argc, char **argv)
     cout << "argv[" << i << "]: " << argv[i] << endl;
 
   unsigned int num_primes = 0;
-  for(unsigned int i = 1; i <= 100000000; i++)
+  for(unsigned int i = 1; i <= 1000000; i++)
   {
     if(i % 10000000 == 0)
       cout << "Checkt up to: " << i << endl;
-    if(Primes.is_prime(i))
+    if(Primes::is_prime(i))
       {
 	num_primes++;
 	//cout << i << endl;
