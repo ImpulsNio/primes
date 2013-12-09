@@ -3,6 +3,7 @@
 // ====================================================
 
 #include "primes.hpp"
+#include <list>
 
 bool Primes::is_prime(const unsigned int NUM)
 {
@@ -16,4 +17,9 @@ bool Primes::is_prime(const unsigned int NUM)
   }
 
   return true;
+}
+
+bool Primes::is_cyclic(const unsigned int PRIME)
+{
+  return false;
 }
